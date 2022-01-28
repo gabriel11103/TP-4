@@ -1,0 +1,45 @@
+﻿1 - Cargar: Cargar el contenido del archivo en un vector de registros de libros, que siempre debe mantenerse ordenado
+ por isbn
+    (Omitir la primera línea del archivo, que contiene el nombre de los campos)
+
+
+2- Sumar revisión: El usuario puede optar por buscar el libro por ISBN o por título. 
+   Según el criterio elegido se debe
+ ingresar por teclado el ítem a buscar. 
+   Si existe en el vector el libro con el criterio buscado,  mostrar sus datos y
+ sumar una revisión al mismo. 
+   Si no existe mostrar un mensaje por pantalla.
+
+
+3 - Mayor revisiones: Buscar en el vector el libro con mayor cantidad de revisiones. 
+    Informar si su rating es mayor,
+ menor o igual al rating promedio de su mismo idioma.
+
+
+4 - Popularidad 2000: A partir del vector, generar una matriz donde cada fila sea un idioma y cada columna un año de
+ publicación. 
+    La celda debe contener el libro que tenga mayor rating para ese idioma y año (si hubiera varios, elegir
+ sólo uno) 
+    sólo para los libros publicados entre el año 2000 y el 2020 (ambos incluídos).
+
+
+5 - Publicaciones por década: A partir del vector, generar un vector de conteo donde cada celda representa una década
+ entre 1900 y 2000. 
+    La celda debe indicar cuántos libros se publicaron en esa década. Mostrar todas las cantidades
+ mayores a cero. 
+    Informar además cuál fue la década con más publicaciones. Si varias tuvieran la misma cantidad,
+ informar todas.
+
+
+6 - Guardar populares: Si la matriz de la opción 4 ya fue generada, almacenar su contenido registros por registro
+ (omitiendo las celdas vacías) 
+    en un archivo binario llamado populares.dat e informar la cantidad de registros grabados.
+ 
+    Si la matriz aún no fue generada, informarlo.
+
+
+7 - Mostrar archivo: Listar el contenido del archivo generado en el punto anterior.
+    
+
+
+nombre=2021_AED_TP4_Lescano_90616[1K3]_Montenegro_90329[1K3]_Seeck_89946[1K3]_Tagliaferri_82803[1K3]_Ulloque_89972[1K3]
